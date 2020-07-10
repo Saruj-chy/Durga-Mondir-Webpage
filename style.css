@@ -171,6 +171,30 @@
 }
 
 
+/* ================================                    volunteer                             */
+
+
+@media (min-width: 760px) {
+  .carousel-text-v{
+    text-align: center;
+    color: yellow;
+    font-size: 40px;
+    padding-left: 50px;
+    padding-bottom: 50px;
+    
+  }
+}
+
+@media (max-width: 760px) {
+  .carousel-text-v{
+    text-align: center;
+    color: yellow;
+    font-size: 15px;
+    padding-left: 50px;
+    
+  }
+}
+
 
 
 .photo{
