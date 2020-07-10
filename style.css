@@ -1,0 +1,179 @@
+.body{
+  background-color: rgba(255, 0, 0, 0.6);
+  
+}
+
+
+
+.nav-custom-item a{
+  color: white;
+  padding: 5px 30px;
+}
+.nav-custom-item:hover a{
+  background-color: white;
+  color: black;
+  border-radius: 10px;
+}
+
+.navbar-toggler-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255, 255, 255, 0.5)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
+}
+
+
+.carousel-text p{
+  color: yellow;
+  font-size: 30px;
+  padding-left: 50px;
+}
+
+.carousel-see p a{
+  color: rgb(216, 216, 33);
+  font-size: 30px;
+  text-decoration: none;
+}
+
+@media (max-width: 760px) {
+     
+      .navbar img{
+        width: 100px;
+        height: auto;
+        border-radius: 10px;
+        opacity: 0.6;
+      }
+      .carousel-text p{
+        color: yellow;
+        font-size: 15px;
+        padding-left: 10px;
+        
+      }
+      .carousel-see p a{
+        color: rgb(216, 216, 33);
+        font-size: 15px;
+        text-decoration: none;
+      }
+    
+
+      .durga-photo-album {
+        position: absolute;
+        left: 0px;       
+        display: flex;
+        flex-wrap: wrap;
+      }
+  
+}
+@media (min-width: 760px){
+      .navbar img{
+        width: 150px;
+        height: auto;
+        border-radius: 10px;
+        opacity: 0.6;
+      }
+      .durga-photo-album{
+        position: absolute;
+        left: 45px;  
+        display: flex;
+        flex-wrap: wrap;
+      }
+}
+
+
+.carousel-img{
+  margin-top: 50px;
+}
+
+
+.carousel-see{
+  text-align: end;
+}
+
+
+.photo-frame{
+  width: 400px;
+  height: auto;
+  margin: 5px;
+  position: relative;
+  /* border: 3px solid red; */
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.photo-frame .photo img{
+  width: 100%;
+}
+.photo-detail{
+  position: absolute;
+  top: 10px;
+  
+  display: none;
+}
+.photo-frame:hover .photo-detail{
+  display: block;
+  color: white;
+  padding: 10px;
+}
+.photo-frame:hover .photo img{
+  transform: scale(1.2);
+  transition: transform 1s;    
+
+}
+
+/* index */
+.index{
+  background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url('images/durga-ma.jpg');
+  height: 100vh;
+  background-size: cover;
+  background-position: center;
+}
+.title{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%)
+}
+
+
+@media (max-width: 760px) {
+  .title h1{
+    color:#fff;
+    font-size:20px;
+    opacity: 0.7;
+    text-align: center;
+    /* border: 1px solid red; */
+  }
+  .title h3{
+    color:#fff;
+    font-size:10px;
+    opacity: 0.7;
+    text-align: end;
+    /* border: 1px solid red; */
+    padding-right: 20px;
+  
+  }
+}
+
+@media (min-width: 760px) {
+  .title h1{
+    color:#fff;
+    font-size:60px;
+    opacity: 0.7;
+    text-align: center;
+    /* border: 1px solid red; */
+  }
+  .title h3{
+    color:#fff;
+    font-size:30px;
+    opacity: 0.7;
+    text-align: end;
+    /* border: 1px solid red; */
+    padding-right: 70px;
+  
+  }
+}
+
+
+
+
+.photo{
+  /* border: 1px solid red; */
+
+}
