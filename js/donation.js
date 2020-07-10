@@ -13,7 +13,10 @@ let January = [
   { serial:2, name:"রুপেশ দত্ত",amount:"৩০০০ ", number:"01516******", date:"কেঁয়াগড় মধ্যমপাড়া"},
   { serial:3, name:"বিপ্লব দত্ত",amount:"১০০০", number:"01516******", date:"কেঁয়াগড় মধ্যমপাড়া"},
   { serial:4, name:"যুবরাজ দত্ত",amount:"১০০০" , number:"01516******", date:"কেঁয়াগড় মধ্যমপাড়া"},
-  { serial:5, name:"সুপ্লব দত্ত",amount:"৫০০ ", number:"01516******", date:"কেঁয়াগড় মধ্যমপাড়া"}
+  { serial:5, name:"সুপ্লব দত্ত",amount:"৫০০ ", number:"01516******", date:"কেঁয়াগড় মধ্যমপাড়া"},
+  { serial:6, name:"সুজল দত্ত",amount:"৫০০০ ", number:"01516******", date:"কেঁয়াগড় মধ্যমপাড়া"},
+  { serial:7, name:"লিটন দত্ত",amount:"৫০০০ ", number:"01516******", date:"কেঁয়াগড় মধ্যমপাড়া"},
+  { serial:7, name:"রাজিব দত্ত",amount:"৫০০০ ", number:"01516******", date:"কেঁয়াগড় মধ্যমপাড়া"}
 ];
 function loadTableDataJAN(January){
     const tableBodyJAN = document.getElementById("tableBodyJAN");
