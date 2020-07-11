@@ -1,2 +1,5 @@
 # Durga-Mondir-Webpage
-**Author: Sarose Datta**
+**Author: Sarose Datta.**
+**Developer: Android, Web-application, Flatter**
+
+

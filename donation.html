@@ -6,12 +6,38 @@
   <title>Puja Related Page</title>
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
   <link rel="stylesheet" href="css/style.css">
+  <style>
+    .carousel-text-d{
+      text-align: center;
+      color: yellow;
+      font-size: 30px;
+      padding-left: 50px;
+      
+    }
+    .table-donate{
+      text-align: center;
+      color: rgb(0, 0, 0);
+      border-radius: 10px;
+     
+    }
+    .table-donate th{
+      font-size: 20px;
+     
+      
+    }
+    .table-donate tbody{
+      font-size: 15px;
+      color: white;
+      font-family: "Times New Roman", Times, serif;
+     
+    }
+  </style>
 </head>
-<body class="index">
+<body class="body">
   <header>
     <div class="container">
       <nav class="navbar navbar-expand-lg ">
-        <img class="img-fluid" src="images/durga-ma.jpg" alt="">
+        <a href="index.html"><img  src="images/durga-ma.jpg" alt=""></a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
@@ -21,7 +47,7 @@
               <a class="nav-link" href="home.html">Home <span class="sr-only">(current)</span></a>
             </li>
             <li class="nav-item nav-custom-item">
-              <a class="nav-link" href="donation.html">Donation</a>
+              <a class="nav-link" href="#">Donation</a>
             </li>
             <li class="nav-item nav-custom-item">
               <a class="nav-link" href="#">Commitee</a>
@@ -33,18 +59,42 @@
         </div>
       </nav>
      </div> 
-
-     <div class="title">
-      <h1> কেঁয়াগড় মধ্যমপাড়া সার্বজনীন দুর্গা মন্দির </h1>
-      <h3> সনঃ ১৯২২ খ্রিষ্টাব্দ</h3>
-    </div>
-    
-          
-        
-
-        
-
   </header>
+
+  <section class="container">
+    <div class="container"></div>
+      <div class="carousel-img ">
+        
+        <div class=" carousel-text-d">
+          <p> মন্দির উন্নয়নে অনুদানকারীদের তালিকা</p>
+        </div>
+        <!-- <div class="col-3 col-sm-4 col-md-2 col-lg-2 col-xl-2 carousel-see">
+          <p><a href="">See all</a></p>
+        </div> -->
+      
+      </div> 
+      <div id="January" class="table-responsive" >
+        <table class="table table-bordered table-striped table-hover table-donate">
+        
+          <thead>
+            <tr>
+              <th>Serial</th>
+              <th>Member's Name</th>
+              <th> Amount </th>
+              <th>Mobile Number</th>
+              <th>Address</th>
+              
+            </tr>
+          </thead>
+          <tbody id="tableBodyJAN">
+          
+          </tbody>
+        </table>
+      </div>
+    </div>  
+  </section>
+  
+ 
 
  
 
@@ -55,5 +105,6 @@
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
 
+<script src="js/donation.js"></script>
 </body>
 </html>
