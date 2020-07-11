@@ -53,12 +53,7 @@
       }
     
 
-      .durga-photo-album {
-        position: absolute;
-        left: 0px;       
-        display: flex;
-        flex-wrap: wrap;
-      }
+    
   
 }
 @media (min-width: 760px){
@@ -68,12 +63,7 @@
         border-radius: 10px;
         opacity: 0.6;
       }
-      .durga-photo-album{
-        position: absolute;
-        left: 45px;  
-        display: flex;
-        flex-wrap: wrap;
-      }
+     
 }
 
 
@@ -87,34 +77,53 @@
 }
 
 
-.photo-frame{
-  width: 400px;
-  height: auto;
-  margin: 5px;
-  position: relative;
-  /* border: 3px solid red; */
-  border-radius: 10px;
-  overflow: hidden;
+/* --------------------------              =home=                       */
+
+.image-container{
+  max-width: 1200px;   
+  
 }
 
-.photo-frame .photo img{
-  width: 100%;
+.durga-ma-frame1{
+  position: relative;
+  height: 240px;
+  overflow: hidden;
+  border-radius: 10px;
 }
-.photo-detail{
+
+.durga-ma-frame2{
+  position: relative;
+  height: 550px;
+  overflow: hidden;
+  border-radius: 10px;
+}
+
+.durga-ma-photo img{
+  width: 400px;
   position: absolute;
-  top: 10px;
-  
+  top: 5px;
+  left: 3px;
+  border-radius: 10px;
+ 
+}
+.durga-ma-detail{ 
   display: none;
 }
-.photo-frame:hover .photo-detail{
+
+.durga-ma-frame:hover .durga-ma-photo img{
+  border-radius: 10px;
+  transform: scale(1.2);
+  transition: transform 1s;
+}
+.durga-ma-frame:hover .durga-ma-detail{
   display: block;
   color: white;
   padding: 10px;
-}
-.photo-frame:hover .photo img{
-  transform: scale(1.2);
-  transition: transform 1s;    
-
+  font-size: 15px;
+  position: absolute;
+  top: 20%;
+  
+  
 }
 
 /* index */
@@ -194,10 +203,82 @@
     
   }
 }
+  /* new add */
+
+.volunteer-img img {
+  width: 400px;
+  border-radius: 10px;
+}
+
+.volunteer-img {
+  border-radius: 10px;
+  overflow: hidden;
+ 
+}
+.volunteer-img:hover img {
+  border-radius: 10px;
+  transform: scale(1.2);
+  transition: transform 1s;
+  overflow: hidden;
+}
 
 
+/* --------------------------              test                       */
 
-.photo{
-  /* border: 1px solid red; */
+.test-img-section{
+  max-width: 1200px;   
+  
+}
+
+.durga-ma-photo img{
+  width: 400px;
+  position: absolute;
+  top: 5px;
+  left: 3px;
+  border-radius: 10px;
+ 
+}
+.durga-ma-detail{
+  position: absolute;
+  top: 10px;
+  
+  display: none;
+}
+.test-img{
+  position: relative;
+  height: 240px;
+  overflow: hidden;
+  border-radius: 10px;
+}
+.test-img:hover .durga-ma-photo img{
+  border-radius: 10px;
+  transform: scale(1.2);
+  transition: transform 1s;
+}
+.test-img:hover .durga-ma-detail{
+  display: block;
+  color: white;
+  padding: 10px;
+  font-size: 15px;
+  
+}
+
+
+/* ---------------------   footer     */
+footer{
+  height: 100px;
+}
+/* --------------------------------     border  ----------------- */
+/* .durga-ma-photo img {
+  border: 1px solid white;
 
 }
+ .durga-ma-frame{
+  border: 1px solid blue;
+
+}
+.volunteer{
+  border: 1px solid yellow;
+} */
+
+/* Puja web site 2 */
