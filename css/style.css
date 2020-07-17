@@ -239,7 +239,7 @@
 .mondir-commitee-people img{
  
   border-radius: 10px;
-  opacity: 100%;
+  opacity: 0%;
 }
 .commitee-people:hover{
   border-radius: 10px;
